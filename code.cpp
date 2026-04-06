@@ -61,7 +61,7 @@ public:
 int main()
 {
 	char data;
-	CSTACK s1(100);
+	CSTACK s1(1000);
 	CSTACK s2(80);
 	s1.push('a'); s1.show();
 	s2.push('X'); s2.show();
